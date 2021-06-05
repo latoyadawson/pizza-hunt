@@ -14,7 +14,7 @@ const handleAddTopping = event => {
   const checkbox = document.createElement('input');
   checkbox.type = 'checkbox';
   checkbox.name = 'topping';
-  checkbox.value = toppingValue;
+  checkbox.value = toppingValue;g
   checkbox.id = toppingValue
     .toLowerCase()
     .split(' ')
